@@ -146,7 +146,7 @@ mysql> SHOW DATABASES;
 ```sql
 mysql> USE Churn;
 ```
-
+## OUTPUT
 ```sql
 Database changed
 ```

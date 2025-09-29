@@ -1,6 +1,6 @@
 ```bash
 LOAD DATA LOCAL INFILE 'D:\\Games\\Telco-Customer-Churn.csv'  --use your file path as well as name here
-INTO TABLE `telco-customer-churn`  --table present in my sql 
+INTO TABLE `telco-customer-churn`  -- Enter Yout table Name present in MySql
 FIELDS TERMINATED BY ','
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;

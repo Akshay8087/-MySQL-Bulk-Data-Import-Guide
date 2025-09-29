@@ -1,0 +1,8 @@
+```bash
+LOAD DATA LOCAL INFILE 'D:\\Games\\Telco-Customer-Churn.csv'  --use your file path as well as name here
+INTO TABLE `telco-customer-churn`  --table present in my sql 
+FIELDS TERMINATED BY ','
+ENCLOSED BY '\"'
+LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;
+```
+use this comand in cmd for importing your data in MySql Follow Instructions as well.
